@@ -57,6 +57,3 @@ for i in range(n_trials):
             break
 
 plt.plot(pc_num_90)
-
-def KNN_imputation(norm_dic):
-    
