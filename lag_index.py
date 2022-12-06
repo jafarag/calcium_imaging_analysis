@@ -2,8 +2,15 @@
 """
 Created on Thu Apr 21 14:28:29 2022
 
-@author: User
+@author: Youssef Faragalla
 """
+
+"""
+Using the activity of each neuron in the imaging dataset, I tried to determine the lag-lead 
+relationship between them across different experimental sessions (days). This was attempted to 
+understand how the network connectivity changed when a different conditioned neuron was chosen. 
+"""
+
 import os
 for k in range(8):
     if k == 2 or k == 3 or k == 5 or k == 7:
