@@ -4,6 +4,15 @@ Created on Mon Apr 11 09:53:17 2022
 
 @author: User
 """
+
+"""
+By separating trials via trial outcome (lick reward or no lick reward), it would be good to separate whether there are any changes in neural activity, 
+correlation matrix structure, and dimensionality of neural data when seaprated by trial outcome. I also take a look at whether we can predict the 
+signal of the conditioned neuron from the other neurons (usign linear regression) and how that compares across different trial outcomes.
+
+"""
+
+
 #import BCI_analysis.BCI_analysis as bci
 #data_dict = bci.io_matlab.read_multisession_mat('C:/Users/User/Downloads/Mouse_BCI/BCI_data-20220331T182839Z-002/BCI_data/BCI22_030222v8.mat');
 
