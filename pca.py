@@ -4,6 +4,15 @@ Created on Fri Jul  8 12:21:08 2022
 
 @author: User
 """
+
+"""
+Calcium signals are often very noisy with missing values. Using a KNN-imputer is a common way to 
+fill in the gaps in the literature. In order to also understand whether the neural activity changes
+dimensionality during the course of a session (as the activity of the network is primed to drive the
+activity of the conditioned neuron), I used PCA to see how many components are required to explain 90%
+of the variance in the calcium imaging data.
+"""
+
 data_dict = bci.io_matlab.read_multisession_mat(fullpath);
 norm_r = normalize_calcium_signal(data_dict)
 from sklearn.impute import KNNImputer
