@@ -4,6 +4,13 @@ Created on Thu Apr 14 11:01:16 2022
 
 @author: User
 """
+
+"""
+Code used for establishing signal correlation, noise correlation, residual correlations, visualization of correlation matrices, PCA, KNN imputation.
+"""
+
+
+
 import os
 for k in range(8):
     if k == 2 or k == 3 or k == 5 or k == 7:
